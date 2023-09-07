@@ -1,0 +1,462 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB06AB96B9E6F7C17D1D4',
+    participant: undefined
+  },
+  messageTimestamp: 1694113369,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'menu',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_784f1fda-d2f0-4e19-882a-083b125936f7',
+  keyword: 'key_3b74fe50-98cc-4959-ab01-c48de14c5863',
+  answer: 'Menú Principal \n' +
+    '\n' +
+    '1- Cursos\n' +
+    '2- Pagos\n' +
+    '3- Preguntas Frecuentes \n' +
+    '\n' +
+    '9- Hablar con un representante.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c53a82587cbdc2f2bb573864eecdf931'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB040A451ADE84D2F2693',
+    participant: undefined
+  },
+  messageTimestamp: 1694113371,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f24f2467-366d-4683-8c3b-4a7e97bba013',
+  keyword: 'key_dbd00783-c7f6-456a-9131-5ed926f7e3b2',
+  answer: 'Menú Cursos\n' +
+    '\n' +
+    '1 - ¿Cómo inscribirse a un curso?\n' +
+    '2 - ¿En qué fecha y horarios comienza tal curso?\n' +
+    '3 - ¿Cómo abono el curso?\n' +
+    '4 - ¿Cómo sé sabe el precio del curso?\n' +
+    '5 - ¿De qué tratan los cursos y cuales son sus temarios?\n' +
+    '\n' +
+    '0 - Volver al menú inicial',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a6424f172a09fd539be94345fd8e0a2e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D8CEEA227B5F165A93',
+    participant: undefined
+  },
+  messageTimestamp: 1694113372,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '3',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f6c3656d-c792-43a7-9997-79cded02ebd9',
+  keyword: 'key_ae242f4d-5a50-43c3-9664-2e5809af5402',
+  answer: '¿Cómo abono el curso?\n' +
+    '\n' +
+    '- Ingresar la orden de pago: SAF - Orden de Pago (utn.edu.ar), ingresar con tu DNI en usuario y\n' +
+    'contraseña\n' +
+    '- Debés ingresar a nuestra página web de pagos https://op.frgp.utn.edu.ar/, con tu DNI en\n' +
+    'usuario y contraseña. Seleccioná orden de pago y luego el curso y cuota que vas a abonar.\n' +
+    '\n' +
+    ' Escriba "menu" para volver al menu principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '5ae5e74cf93498bc73919b9f6d36e3df'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB027AC27005CFC13A0A0',
+    participant: undefined
+  },
+  messageTimestamp: 1694113374,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'menu',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_784f1fda-d2f0-4e19-882a-083b125936f7',
+  keyword: 'key_3b74fe50-98cc-4959-ab01-c48de14c5863',
+  answer: 'Menú Principal \n' +
+    '\n' +
+    '1- Cursos\n' +
+    '2- Pagos\n' +
+    '3- Preguntas Frecuentes \n' +
+    '\n' +
+    '9- Hablar con un representante.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c53a82587cbdc2f2bb573864eecdf931'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04C2FF663452604E4D3',
+    participant: undefined
+  },
+  messageTimestamp: 1694113375,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f24f2467-366d-4683-8c3b-4a7e97bba013',
+  keyword: 'key_dbd00783-c7f6-456a-9131-5ed926f7e3b2',
+  answer: 'Menú Cursos\n' +
+    '\n' +
+    '1 - ¿Cómo inscribirse a un curso?\n' +
+    '2 - ¿En qué fecha y horarios comienza tal curso?\n' +
+    '3 - ¿Cómo abono el curso?\n' +
+    '4 - ¿Cómo sé sabe el precio del curso?\n' +
+    '5 - ¿De qué tratan los cursos y cuales son sus temarios?\n' +
+    '\n' +
+    '0 - Volver al menú inicial',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a6424f172a09fd539be94345fd8e0a2e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D258562F390F8CCC49',
+    participant: undefined
+  },
+  messageTimestamp: 1694113378,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '0',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '0',
+  from: '5491121685641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F3D8667556AED23D2C',
+    participant: undefined
+  },
+  messageTimestamp: 1694113380,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_dc15dfb5-88df-4766-af02-a4cc370358b7',
+  keyword: 'key_5355e21e-afd8-4f1a-a506-a74929752b6c',
+  answer: 'Menú Pagos\n' +
+    '\n' +
+    '1 - ¿Cuáles son las formas de pago?\n' +
+    '2 - ¿Cuándo puedo abonar?\n' +
+    '\n' +
+    '0 - Volver al menú inicial',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '0a4b738dc8eb16806b70b80a7aac7ff5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB06C8415559E00C7A288',
+    participant: undefined
+  },
+  messageTimestamp: 1694113382,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '0',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '0',
+  from: '5491121685641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B70112ECBE200FEB3E',
+    participant: undefined
+  },
+  messageTimestamp: 1694113383,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '3',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b796f63a-5d93-4192-916c-9efa603c116b',
+  keyword: 'key_3878a777-7773-4351-9a92-21acef7b520a',
+  answer: 'Menú Preguntas Frecuentes \n' +
+    '\n' +
+    '1 - ¿Qué necesito para hacer un curso?\n' +
+    '2 - ¿Debo tener estudios previos para hacer un curso?\n' +
+    '3 - ¿Cuándo recibo mi certificado?\n' +
+    '4 - Finalicé el curso y no recibí mi certificado\n' +
+    '5 - ¿Otorgan becas?\n' +
+    '\n' +
+    '0 - Volver al menú inicial',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '2af97d55554f3ac4fed0a309babefd39'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A5C3529D6DCD6936CD',
+    participant: undefined
+  },
+  messageTimestamp: 1694113384,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '0',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '0',
+  from: '5491121685641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0362BDC7EAC01E027CD',
+    participant: undefined
+  },
+  messageTimestamp: 1694113387,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '9',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '9',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c4ad312a-f9c7-4d85-aeb0-9d086b176f0d',
+  keyword: 'key_b4aa4d3e-9e52-49f5-a9ce-8c7ae1d6b95c',
+  answer: 'Un representante se pondra en contacto contigo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '21a1756285b854a07260dc158b643b1e'
+}
