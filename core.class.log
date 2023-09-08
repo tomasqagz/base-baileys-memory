@@ -1,0 +1,141 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493513118613@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09450D99384099C0DF7',
+    participant: undefined
+  },
+  messageTimestamp: 1694216784,
+  pushName: 'g',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'menu',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu',
+  from: '5493513118613'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9234d634-b2ef-444d-a179-5ab480595614',
+  keyword: 'key_75db5847-a926-4dad-9627-3a6fb0e98ff0',
+  answer: 'Menú Principal \n\n1- Cursos\n2- Pagos\n3- Preguntas Frecuentes ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '20dd37c2d9e3043dd5b78afda4675813'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493513118613@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C5924C54D4BB8069E1',
+    participant: undefined
+  },
+  messageTimestamp: 1694216785,
+  pushName: 'g',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5493513118613'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_11b4f959-ccb0-4d11-8e09-796ce670312a',
+  keyword: 'key_d42f7ff4-4d95-4050-bb7a-1689493f54bc',
+  answer: 'Menú Cursos\n' +
+    '\n' +
+    '1 - ¿Cómo inscribirse a un curso?\n' +
+    '2 - ¿En qué fecha y horarios comienza tal curso?\n' +
+    '3 - ¿Cómo abono el curso?\n' +
+    '4 - ¿Cómo sé sabe el precio del curso?\n' +
+    '5 - ¿De qué tratan los cursos y cuales son sus temarios?\n' +
+    '\n' +
+    '0 - Volver al menú inicial',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'dea2998d73976eafa8bdc8c53ccd7774'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493513118613@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B7C59EC323AADF93E0',
+    participant: undefined
+  },
+  messageTimestamp: 1694216786,
+  pushName: 'g',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5493513118613'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6237df05-129d-4b0a-a441-92dfb26a529b',
+  keyword: 'key_166c005d-77ab-49d5-a1f9-697fc396ba53',
+  answer: '¿Cómo inscribirse a un curso?\n' +
+    '\n' +
+    '- Ingresá a la página, seleccioná el curso y rellená el formulario en “reservar vacante”.\n' +
+    '- Ingresá a la página web (https://www.frgp.utn.edu.ar/extension/guia_cursos), seleccioná\n' +
+    'el curso, hacé clic en “reserva tu vacante” y completá el formulario con tus datos.\n' +
+    '\n' +
+    ' Escriba "menu" para volver al menu principal\n' +
+    'Si tienes mas dudas, escribe *"representante"* para contactarte con uno',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '659f56507e4fc8e85629cfd78c918d1e'
+}

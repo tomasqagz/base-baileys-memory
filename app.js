@@ -3,27 +3,20 @@ const { createBot, createProvider, createFlow, addKeyword } = require('@bot-what
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
-const { EVENTS } = require('@bot-whatsapp/bot')
 
 
-const flowRP = addKeyword('representante',{ sensitive: true }).addAnswer(
-    ['Un representante se pondra en contacto contigo'],
-    null,
-    null,
-    []
-      
-)
+
 
 const flowCursos1 = addKeyword('1',{ sensitive: true }).addAnswer(
     ['¿Cómo inscribirse a un curso?\n',
 '- Ingresá a la página, seleccioná el curso y rellená el formulario en “reservar vacante”.',
 '- Ingresá a la página web (https://www.frgp.utn.edu.ar/extension/guia_cursos), seleccioná',
 'el curso, hacé clic en “reserva tu vacante” y completá el formulario con tus datos.',
-'\n Escriba "menu" para volver al menu principal',
-'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+'\n Escriba *"menu"* para volver al menu principal',
+`Si tienes mas dudas, escribe *"representante"* para contactarte con uno`],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 
 const flowCursos2 = addKeyword('2',{ sensitive: true }).addAnswer(
@@ -31,11 +24,11 @@ const flowCursos2 = addKeyword('2',{ sensitive: true }).addAnswer(
     '- Toda la información se publica en la página',
     '- La información sobre inicios y horarios la encontrarás en nuestra página web',
     '(https://www.frgp.utn.edu.ar/extension/guia_cursos)',
-    '\n Escriba "menu" para volver al menu principal',
-    'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+    '\n Escriba *"menu"* para volver al menu principal',
+    'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 
 const flowCursos3 = addKeyword('3',{ sensitive: true }).addAnswer(
@@ -44,11 +37,11 @@ const flowCursos3 = addKeyword('3',{ sensitive: true }).addAnswer(
         'contraseña',
        '- Debés ingresar a nuestra página web de pagos https://op.frgp.utn.edu.ar/, con tu DNI en',
         'usuario y contraseña. Seleccioná orden de pago y luego el curso y cuota que vas a abonar.',
-        '\n Escriba "menu" para volver al menu principal',
-        'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+        '\n Escriba *"menu"* para volver al menu principal',
+        'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 
 const flowCursos4 = addKeyword('4',{ sensitive: true }).addAnswer(
@@ -56,19 +49,19 @@ const flowCursos4 = addKeyword('4',{ sensitive: true }).addAnswer(
       '- Ingresando a la página',
       '- La información sobre costos la encontrarás en nuestra página web',
       '(https://www.frgp.utn.edu.ar/extension/guia_cursos)',
-      '\n Escriba "menu" para volver al menu principal',
-      'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+      '\n Escriba *"menu"* para volver al menu principal',
+      'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 
 const flowCursos5 = addKeyword('5',{ sensitive: true }).addAnswer(
     ['¿De qué tratan los cursos y cuáles son sus temarios?\n',
      'La información sobre los cursos la encontrarás en nuestra página web',
      '(https://www.frgp.utn.edu.ar/extension/guia_cursos)',
-     '\n Escriba "menu" para volver al menu principal',
-     'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+     '\n Escriba *"menu"* para volver al menu principal',
+     'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
 []
@@ -82,21 +75,21 @@ const flowPagos1 = addKeyword('1',{ sensitive: true }).addAnswer(
     '-Homebanking: Transferencia Bancaria (solicitar los datos al siguiente e-mail capacitacion@red.frgp.utn.edu.ar)',
     '-Depósito Bancario por cajero: (solicitar los datos al siguiente e-mail capacitacion@red.frgp.utn.edu.ar)',
     '-Pago Fácil / Rapi Pago: Deberás descargar la orden de pago desde nuestra web de pagos https://op.frgp.utn.edu.ar/', 
-'\n Escriba "menu" para volver al menu principal',
-'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+'\n Escriba *"menu"* para volver al menu principal',
+'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 
 const flowPagos2 = addKeyword('2',{ sensitive: true }).addAnswer(
     ['¿Cuándo puedo abonar?\n',
 '-	La persona a cargo de la coordinación del curso se pondrá en contacto para informártelo',
-'\n Escriba "menu" para volver al menu principal',
-'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+'\n Escriba *"menu"* para volver al menu principal',
+'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 
 
@@ -106,30 +99,30 @@ const flowQA1 = addKeyword('1',{ sensitive: true }).addAnswer(
 '-	Ser mayor de 16 años.',
 '-	Si es a distancia, conexión a internet.',
 '-	Si es presencial, algo para tomar nota.',
-'\n Escriba "menu" para volver al menu principal',
-'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+'\n Escriba *"menu"* para volver al menu principal',
+'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 
 const flowQA2 = addKeyword('2',{ sensitive: true }).addAnswer(
     ['¿Debo tener estudios previos para hacer un curso?   Ídem anterior\n',
     '-	No, el único requisito es ser mayor de 16 años.',
-'\n Escriba "menu" para volver al menu principal',
-'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+'\n Escriba *"menu"* para volver al menu principal',
+'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 const flowQA3 = addKeyword('3',{ sensitive: true }).addAnswer(
     ['¿Cuándo recibo mi certificado?\n',
      '-Una vez finalizado el curso, el certificado tiene un tiempo administrativo de aproximadamente de 30 días, se enviará al correo electrónico con el que se inscribió.',
-'\n Escriba "menu" para volver al menu principal',
-'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+'\n Escriba *"menu"* para volver al menu principal',
+'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 
 const flowQA4 = addKeyword('4',{ sensitive: true }).addAnswer(
@@ -139,11 +132,11 @@ const flowQA4 = addKeyword('4',{ sensitive: true }).addAnswer(
     '•	La cuenta de correo con el que se inscribió',
     '•	Haber recibido y completado la encuesta de satisfacción',
     '•	Bandeja de correos no deseados',
-'\n Escriba "menu" para volver al menu principal',
-'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+'\n Escriba *"menu"* para volver al menu principal',
+'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
 
 const flowQA5 = addKeyword('5',{ sensitive: true }).addAnswer(
@@ -154,13 +147,12 @@ const flowQA5 = addKeyword('5',{ sensitive: true }).addAnswer(
         '•	No docentes de la UTN FRGP',
         '•	Familiares directos del personal no docente de la UTN FRGP',
         '•	Personas con discapacidad',
-'\n Escriba "menu" para volver al menu principal',
-'Si tienes mas dudas, escribe "representante" para contactarte con uno'],
+'\n Escriba *"menu"* para volver al menu principal',
+'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
 null,
 null,
-[flowRP, flowPrincipal]
+[]
 )
-
 
 
 
@@ -241,7 +233,14 @@ const flowQA = addKeyword('3',{ sensitive: true }).addAnswer(
     [flowQA1, flowQA2, flowQA3, flowQA4, flowQA5]
 )
 
-
+/*
+const flowRP = addKeyword('representante',{ sensitive: true }).addAnswer(
+    ['Un representante se pondra en contacto contigo'],
+    null,
+    null,
+    []
+      
+)*/
 
 const flowPrincipal = addKeyword('menu',{ sensitive: true })
     .addAnswer(['Menú Principal \n',
@@ -253,8 +252,6 @@ const flowPrincipal = addKeyword('menu',{ sensitive: true })
         [flowCursos, flowPagos, flowQA]
     )
 
-const flowBienvenida = addKeyword(EVENTS.WELCOME)
-    .addAnswer('Bienvenido al ChatBotUTN, escribe "menu" para ver mas opciones')
 
 
 const main = async () => {
