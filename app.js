@@ -1,11 +1,16 @@
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
-
+const { createBot, createProvider, createFlow, addKeyword} = require('@bot-whatsapp/bot')
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
+const { EVENTS } = require('@bot-whatsapp/bot')
 
 
-
+const flowRP = addKeyword('representante',{ sensitive: true }).addAnswer(
+    ['Un representante se pondra en contacto contigo'],
+    null,
+    null,
+    []
+)
 
 const flowCursos1 = addKeyword('1',{ sensitive: true }).addAnswer(
     ['¿Cómo inscribirse a un curso?\n',
@@ -14,9 +19,20 @@ const flowCursos1 = addKeyword('1',{ sensitive: true }).addAnswer(
 'el curso, hacé clic en “reserva tu vacante” y completá el formulario con tus datos.',
 '\n Escriba *"menu"* para volver al menu principal',
 `Si tienes mas dudas, escribe *"representante"* para contactarte con uno`],
-null,
-null,
-[]
+{ capture:true },
+    
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+    },
+[flowRP]
 )
 
 const flowCursos2 = addKeyword('2',{ sensitive: true }).addAnswer(
@@ -26,9 +42,20 @@ const flowCursos2 = addKeyword('2',{ sensitive: true }).addAnswer(
     '(https://www.frgp.utn.edu.ar/extension/guia_cursos)',
     '\n Escriba *"menu"* para volver al menu principal',
     'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+    { capture:true },
+    
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+    },
+[flowRP]
 )
 
 const flowCursos3 = addKeyword('3',{ sensitive: true }).addAnswer(
@@ -39,9 +66,20 @@ const flowCursos3 = addKeyword('3',{ sensitive: true }).addAnswer(
         'usuario y contraseña. Seleccioná orden de pago y luego el curso y cuota que vas a abonar.',
         '\n Escriba *"menu"* para volver al menu principal',
         'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+        { capture:true },
+    
+        async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+            if(ctx.body.toLowerCase() === "menu"){
+                gotoFlow(flowPrincipal)
+            }
+            else if(ctx.body.toLowerCase() === "representante"){
+                gotoFlow(flowRP)
+            }else{         
+                flowDynamic("La respuesta no se encuentra en las opciones")
+                return fallBack()
+            }
+        },
+[flowRP]
 )
 
 const flowCursos4 = addKeyword('4',{ sensitive: true }).addAnswer(
@@ -51,9 +89,20 @@ const flowCursos4 = addKeyword('4',{ sensitive: true }).addAnswer(
       '(https://www.frgp.utn.edu.ar/extension/guia_cursos)',
       '\n Escriba *"menu"* para volver al menu principal',
       'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+      { capture:true },
+    
+      async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+          if(ctx.body.toLowerCase() === "menu"){
+              gotoFlow(flowPrincipal)
+          }
+          else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+      },
+[flowRP]
 )
 
 const flowCursos5 = addKeyword('5',{ sensitive: true }).addAnswer(
@@ -62,9 +111,20 @@ const flowCursos5 = addKeyword('5',{ sensitive: true }).addAnswer(
      '(https://www.frgp.utn.edu.ar/extension/guia_cursos)',
      '\n Escriba *"menu"* para volver al menu principal',
      'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+     { capture:true },
+    
+     async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+         if(ctx.body.toLowerCase() === "menu"){
+             gotoFlow(flowPrincipal)
+         }
+         else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+     },
+[flowRP]
 )
 
 const flowPagos1 = addKeyword('1',{ sensitive: true }).addAnswer(
@@ -77,9 +137,20 @@ const flowPagos1 = addKeyword('1',{ sensitive: true }).addAnswer(
     '-Pago Fácil / Rapi Pago: Deberás descargar la orden de pago desde nuestra web de pagos https://op.frgp.utn.edu.ar/', 
 '\n Escriba *"menu"* para volver al menu principal',
 'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+{ capture:true },
+    
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+    },
+[flowRP]
 )
 
 const flowPagos2 = addKeyword('2',{ sensitive: true }).addAnswer(
@@ -87,9 +158,20 @@ const flowPagos2 = addKeyword('2',{ sensitive: true }).addAnswer(
 '-	La persona a cargo de la coordinación del curso se pondrá en contacto para informártelo',
 '\n Escriba *"menu"* para volver al menu principal',
 'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+{ capture:true },
+    
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+    },
+[flowRP]
 )
 
 
@@ -101,9 +183,20 @@ const flowQA1 = addKeyword('1',{ sensitive: true }).addAnswer(
 '-	Si es presencial, algo para tomar nota.',
 '\n Escriba *"menu"* para volver al menu principal',
 'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+{ capture:true },
+    
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+    },
+[flowRP]
 )
 
 const flowQA2 = addKeyword('2',{ sensitive: true }).addAnswer(
@@ -111,18 +204,40 @@ const flowQA2 = addKeyword('2',{ sensitive: true }).addAnswer(
     '-	No, el único requisito es ser mayor de 16 años.',
 '\n Escriba *"menu"* para volver al menu principal',
 'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+{ capture:true },
+    
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+    },
+[flowRP]
 )
 const flowQA3 = addKeyword('3',{ sensitive: true }).addAnswer(
     ['¿Cuándo recibo mi certificado?\n',
      '-Una vez finalizado el curso, el certificado tiene un tiempo administrativo de aproximadamente de 30 días, se enviará al correo electrónico con el que se inscribió.',
 '\n Escriba *"menu"* para volver al menu principal',
 'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+{ capture:true },
+    
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+    },
+[flowRP]
 )
 
 const flowQA4 = addKeyword('4',{ sensitive: true }).addAnswer(
@@ -134,9 +249,20 @@ const flowQA4 = addKeyword('4',{ sensitive: true }).addAnswer(
     '•	Bandeja de correos no deseados',
 '\n Escriba *"menu"* para volver al menu principal',
 'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+{ capture:true },
+    
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+    },
+[flowRP]
 )
 
 const flowQA5 = addKeyword('5',{ sensitive: true }).addAnswer(
@@ -149,9 +275,22 @@ const flowQA5 = addKeyword('5',{ sensitive: true }).addAnswer(
         '•	Personas con discapacidad',
 '\n Escriba *"menu"* para volver al menu principal',
 'Si tienes mas dudas, escribe *"representante"* para contactarte con uno'],
-null,
-null,
-[]
+{ capture:true },
+    
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else if(ctx.body.toLowerCase() === "representante"){
+            gotoFlow(flowRP)
+        }else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+
+        
+    },  
+[flowRP]
 )
 
 
@@ -167,7 +306,7 @@ const flowCursos = addKeyword('1',{ sensitive: true }).addAnswer(
         '0 - Volver al menú inicial'
     ],
     {capture:true},
-    async(ctx, {gotoFlow, flowDynamic}) => {
+    async(ctx, {gotoFlow, flowDynamic,fallBack}) => {
         const num = ctx.body
         if(num =='0'){
             gotoFlow(flowPrincipal)
@@ -175,7 +314,7 @@ const flowCursos = addKeyword('1',{ sensitive: true }).addAnswer(
         
         if(num!='0' && num!='1' && num!='2'&& num!='3'&& num!='4'&& num!='5'){
             flowDynamic("La respuesta no se encuentra en el menu")
-            gotoFlow(flowCursos)
+            return fallBack()
         }
     },
     [flowCursos1, flowCursos2, flowCursos3, flowCursos4, flowCursos5]
@@ -192,7 +331,7 @@ const flowPagos = addKeyword('2',{ sensitive: true }).addAnswer(
             '0 - Volver al menú inicial'
     ],
     {capture:true},
-    async(ctx, {gotoFlow, flowDynamic}) => {
+    async(ctx, {gotoFlow, flowDynamic, fallBack}) => {
         const num = ctx.body
         if(num =='0'){
             gotoFlow(flowPrincipal)
@@ -200,7 +339,7 @@ const flowPagos = addKeyword('2',{ sensitive: true }).addAnswer(
         
         if(num!='0' && num!='1' && num!='2'){
             flowDynamic("La respuesta no se encuentra en el menu")
-            gotoFlow(flowPagos)
+            return fallBack()
         }
     },
     [flowPagos1, flowPagos2]
@@ -219,7 +358,7 @@ const flowQA = addKeyword('3',{ sensitive: true }).addAnswer(
             '0 - Volver al menú inicial'
     ],
     {capture:true},
-    async(ctx, {gotoFlow, flowDynamic}) => {
+    async(ctx, {gotoFlow, flowDynamic, fallBack}) => {
         const num = ctx.body
         if(num =='0'){
             gotoFlow(flowPrincipal)
@@ -227,36 +366,51 @@ const flowQA = addKeyword('3',{ sensitive: true }).addAnswer(
         
         if(num!='0' && num!='1' && num!='2'&& num!='3'&& num!='4'&& num!='5'){
             flowDynamic("La respuesta no se encuentra en el menu")
-            gotoFlow(flowQA)
+            return fallBack()
         }
     },
     [flowQA1, flowQA2, flowQA3, flowQA4, flowQA5]
 )
 
-/*
-const flowRP = addKeyword('representante',{ sensitive: true }).addAnswer(
-    ['Un representante se pondra en contacto contigo'],
-    null,
-    null,
-    []
-      
-)*/
 
-const flowPrincipal = addKeyword('menu',{ sensitive: true })
+const flowPrincipal = addKeyword('menuuu333',{ sensitive: true })
     .addAnswer(['Menú Principal \n',
         '1- Cursos',
         '2- Pagos',
         '3- Preguntas Frecuentes '],
-        null,
-        null,
+    {capture:true},
+        async(ctx, {fallBack, flowDynamic}) => {
+        const num = ctx.body
+        if(num!='1' && num!='2'&& num!='3'){
+            flowDynamic("La respuesta no se encuentra en el menu")
+            return fallBack()
+        }
+        },
         [flowCursos, flowPagos, flowQA]
     )
+       
+    
+
+    const flowBienvenida = addKeyword(EVENTS.WELCOME)
+    .addAnswer(['Bienvenido al ChatBotUTN escribe *"menu"* para ver las opciones'],
+    { capture:true },
+    async(ctx,{gotoFlow, flowDynamic, fallBack})=>{
+        
+        if(ctx.body.toLowerCase() === "menu"){
+            gotoFlow(flowPrincipal)
+        }
+        else{         
+            flowDynamic("La respuesta no se encuentra en las opciones")
+            return fallBack()
+        }
+    })
+
 
 
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrincipal, flowBienvenida])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
