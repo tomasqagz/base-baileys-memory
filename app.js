@@ -5,8 +5,8 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 const { EVENTS } = require('@bot-whatsapp/bot')
 
 
-const flowRP = addKeyword('representante',{ sensitive: true }).addAnswer(
-    ['Un representante se pondra en contacto contigo'],
+const flowRP = addKeyword('representante33333',{ sensitive: true }).addAnswer(
+    ['⏲️ Un representante se pondra en contacto contigo'],
     null,
     null,
     []

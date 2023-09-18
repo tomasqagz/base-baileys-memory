@@ -1,30 +1,26 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB05183F758636271B71F',
+    id: '3EB02E5CCE2274D558E041',
     participant: undefined
   },
-  messageTimestamp: 1694222358,
-  pushName: 'g',
+  messageTimestamp: 1695071904,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'lento',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'sad',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'lento',
-  from: '5493513118613'
+  body: 'sad',
+  from: '5491121685641'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_913b294c-964c-483c-bd7b-2d939166fc71',
-  keyword: 'key_befb55fa-874f-4690-ada8-58e50dcb1a2f',
+  ref: 'ans_4617b553-2b50-424c-acee-bb0033bba349',
+  keyword: 'key_01b84e0f-bbef-4237-84b2-43d895e863c6',
   answer: 'Bienvenido al ChatBotUTN escribe *"menu"* para ver las opciones',
   options: {
     media: null,
@@ -36,179 +32,71 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '467b14cffa3b9764c9716a831100df9f'
+  refSerialize: '092775cefac179fa266160004b61c317'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB09C4F845C9315D03F63',
+    id: '3EB0C8F7385780EC949E76',
     participant: undefined
   },
-  messageTimestamp: 1694222361,
-  pushName: 'g',
+  messageTimestamp: 1695071906,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'menu',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'menu',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   body: 'menu',
-  from: '5493513118613'
+  from: '5491121685641'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0B2917D21D016764B19',
+    id: '3EB0E68AF84007884AC069',
     participant: undefined
   },
-  messageTimestamp: 1694222370,
-  pushName: 'g',
+  messageTimestamp: 1695071908,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'menur',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'menur',
-  from: '5493513118613'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0E07ED1189E64F0C8F3',
-    participant: undefined
-  },
-  messageTimestamp: 1694222376,
-  pushName: 'g',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'menu',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'menu',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   body: 'menu',
-  from: '5493513118613'
+  from: '5491121685641'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB050E51EA0E569E68713',
+    id: '3EB05D320FC2AB595B8BD3',
     participant: undefined
   },
-  messageTimestamp: 1694222385,
-  pushName: 'g',
+  messageTimestamp: 1695071911,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'aloha',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'aloha',
-  from: '5493513118613'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0E6F58DDEB47200EFDA',
-    participant: undefined
-  },
-  messageTimestamp: 1694222390,
-  pushName: 'g',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'ojo',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'ojo',
-  from: '5493513118613'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0174A58122A3D40BDF7',
-    participant: undefined
-  },
-  messageTimestamp: 1694222397,
-  pushName: 'g',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'representante',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'representante',
-  from: '5493513118613'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0E380358DEB217856DC',
-    participant: undefined
-  },
-  messageTimestamp: 1694222399,
-  pushName: 'g',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '1',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '1',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   body: '1',
-  from: '5493513118613'
+  from: '5491121685641'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ea32a4be-48e3-4d56-81f9-d2f48c790ecd',
-  keyword: 'key_a507932b-1f14-4a41-a075-d942f9c479ac',
+  ref: 'ans_11a724a2-9b7d-4bca-97de-79c946b59632',
+  keyword: 'key_b0ff4571-ab51-4782-bf48-60822e7c8ed5',
   answer: 'Menú Cursos\n' +
     '\n' +
     '1 - ¿Cómo inscribirse a un curso?\n' +
@@ -234,186 +122,36 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'd53322f8d51f867f9fdea11a83c50d57'
+  refSerialize: '1ea0fc132439bba771502c6530483c0e'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB04E005998D710C57953',
+    id: '3EB0531B8FE11DF8F85981',
     participant: undefined
   },
-  messageTimestamp: 1694222402,
-  pushName: 'g',
+  messageTimestamp: 1695071914,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '0',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '0',
-  from: '5493513118613'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0AAF5AB1F55B58E4C2A',
-    participant: undefined
-  },
-  messageTimestamp: 1694222405,
-  pushName: 'g',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '2',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '2',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   body: '2',
-  from: '5493513118613'
+  from: '5491121685641'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_509c35a9-2b4a-43de-a7cb-18100e85fb87',
-  keyword: 'key_294ccf5c-6dda-42b0-b39d-b5399b2193c7',
-  answer: 'Menú Pagos\n' +
+  ref: 'ans_c0853489-3334-4cbc-959a-0c9643ae1371',
+  keyword: 'key_41522c3a-527a-4615-96a5-10cd1dd8f5a9',
+  answer: '¿En qué fecha y horarios comienza un curso?\n' +
     '\n' +
-    '1 - ¿Cuáles son las formas y medios de pago?\n' +
-    '2 - ¿Cuándo puedo abonar?\n' +
-    '\n' +
-    '0 - Volver al menú inicial',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    nested: [ [Object], [Object], [Object], [Object] ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'd1d6457c0ebae48bf78865141a8bbf99'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0E02EF39CF2D5B6025B',
-    participant: undefined
-  },
-  messageTimestamp: 1694222408,
-  pushName: 'g',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'aloha',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'aloha',
-  from: '5493513118613'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0DD29984E803BE464B5',
-    participant: undefined
-  },
-  messageTimestamp: 1694222411,
-  pushName: 'g',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'remenu',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'remenu',
-  from: '5493513118613'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0DBCEEAD567F157B053',
-    participant: undefined
-  },
-  messageTimestamp: 1694222413,
-  pushName: 'g',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'menu',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'menu',
-  from: '5493513118613'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0F63CA23C04A244D053',
-    participant: undefined
-  },
-  messageTimestamp: 1694222418,
-  pushName: 'g',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '1',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '5493513118613'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_84d68f21-d452-46b1-b6ea-b43cab31e34c',
-  keyword: 'key_4ee3f87b-a55c-4f7c-a544-9fba8db029f6',
-  answer: '¿Cuáles son las formas de pago?\n' +
-    '\n' +
-    '-\tEn 1 pago o en Cuotas \n' +
-    '\n' +
-    '¿Cuáles son los medios de pago?\n' +
-    '\n' +
-    '-Mercado pago con: tarjeta de débito, tarjeta de crédito bancaria, transferencia.\n' +
-    '-Homebanking: Transferencia Bancaria (solicitar los datos al siguiente e-mail capacitacion@red.frgp.utn.edu.ar)\n' +
-    '-Depósito Bancario por cajero: (solicitar los datos al siguiente e-mail capacitacion@red.frgp.utn.edu.ar)\n' +
-    '-Pago Fácil / Rapi Pago: Deberás descargar la orden de pago desde nuestra web de pagos https://op.frgp.utn.edu.ar/\n' +
+    '- Toda la información se publica en la página\n' +
+    '- La información sobre inicios y horarios la encontrarás en nuestra página web\n' +
+    '(https://www.frgp.utn.edu.ar/extension/guia_cursos)\n' +
     '\n' +
     ' Escriba *"menu"* para volver al menu principal\n' +
     'Si tienes mas dudas, escribe *"representante"* para contactarte con uno',
@@ -427,114 +165,114 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '78d4a2ad86c15d79189e878300f3876f'
+  refSerialize: '2c32d08fdd1d0e251c370b9aad3901f5'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0F76D91FBE4EF224210',
+    id: '3EB006C3107E65A9003A65',
     participant: undefined
   },
-  messageTimestamp: 1694222427,
-  pushName: 'g',
+  messageTimestamp: 1695071918,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'mrbnu',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'representante',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'mrbnu',
-  from: '5493513118613'
+  body: 'representante',
+  from: '5491121685641'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB012E62DCF42FB957D4A',
+    id: '3EB0551FC94486C7AF739E',
     participant: undefined
   },
-  messageTimestamp: 1694222431,
-  pushName: 'g',
+  messageTimestamp: 1695071940,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Menu',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'asdasd',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Menu',
-  from: '5493513118613'
+  body: 'asdasd',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4617b553-2b50-424c-acee-bb0033bba349',
+  keyword: 'key_01b84e0f-bbef-4237-84b2-43d895e863c6',
+  answer: 'Bienvenido al ChatBotUTN escribe *"menu"* para ver las opciones',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '092775cefac179fa266160004b61c317'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0C3D5111990BBD4C17F',
+    id: '3EB0D76D61C46444B80EC1',
     participant: undefined
   },
-  messageTimestamp: 1694222433,
-  pushName: 'g',
+  messageTimestamp: 1695071952,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'menu',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'menu',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   body: 'menu',
-  from: '5493513118613'
+  from: '5491121685641'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0457F359309153B6AE0',
+    id: '3EB02FDE4A4EDC75AFACAB',
     participant: undefined
   },
-  messageTimestamp: 1694222436,
-  pushName: 'g',
+  messageTimestamp: 1695071954,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '`1[',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '3',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '`1[',
-  from: '5493513118613'
+  body: '3',
+  from: '5491121685641'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ea32a4be-48e3-4d56-81f9-d2f48c790ecd',
-  keyword: 'key_a507932b-1f14-4a41-a075-d942f9c479ac',
-  answer: 'Menú Cursos\n' +
+  ref: 'ans_2ced42aa-fc3b-42eb-ac8b-3b05db75d9b5',
+  keyword: 'key_a7aa6e50-bb0a-4762-b694-75d5b5cc6565',
+  answer: 'Menú Preguntas Frecuentes \n' +
     '\n' +
-    '1 - ¿Cómo inscribirse a un curso?\n' +
-    '2 - ¿En qué fecha y horarios comienza tal curso?\n' +
-    '3 - ¿Cómo abono el curso?\n' +
-    '4 - ¿Cómo sé sabe el precio del curso?\n' +
-    '5 - ¿De qué tratan los cursos y cuales son sus temarios?\n' +
+    '1 - ¿Qué necesito para hacer un curso?\n' +
+    '2 - ¿Debo tener estudios previos para hacer un curso?\n' +
+    '3 - ¿Cuándo recibo mi certificado?\n' +
+    '4 - Finalicé el curso y no recibí mi certificado\n' +
+    '5 - ¿Otorgan becas?\n' +
     '\n' +
     '0 - Volver al menú inicial',
   options: {
@@ -553,41 +291,39 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'd53322f8d51f867f9fdea11a83c50d57'
+  refSerialize: '4a7d5193261d8c8131484ba2b7008267'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB02EDA746C66A3DEFA3D',
+    id: '3EB0D9A18CC7A928A1077F',
     participant: undefined
   },
-  messageTimestamp: 1694222441,
-  pushName: 'g',
+  messageTimestamp: 1695071957,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '3',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '5',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '3',
-  from: '5493513118613'
+  body: '5',
+  from: '5491121685641'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_50f3268e-fb03-4859-9640-0e91073af872',
-  keyword: 'key_f3d1c3dd-b9d3-41f2-a9f1-6c9be61d30c8',
-  answer: '¿Cómo abono el curso?\n' +
-    '\n' +
-    '- Ingresar la orden de pago: SAF - Orden de Pago (utn.edu.ar), ingresar con tu DNI en usuario y\n' +
-    'contraseña\n' +
-    '- Debés ingresar a nuestra página web de pagos https://op.frgp.utn.edu.ar/, con tu DNI en\n' +
-    'usuario y contraseña. Seleccioná orden de pago y luego el curso y cuota que vas a abonar.\n' +
+  ref: 'ans_6fa5be83-6c1a-4d28-91f9-a3ab4a8b49c8',
+  keyword: 'key_8edbb14b-2747-4af8-870b-8b6816fdbea0',
+  answer: '¿Otorgan becas?\n' +
+    ' \n' +
+    'Sí, se otorgan becas a:\n' +
+    '•\tAlumnos regulares de las carreras y docentes de la UTN FRGP\n' +
+    '•\tGraduados de las UTN FRGP\n' +
+    '•\tNo docentes de la UTN FRGP\n' +
+    '•\tFamiliares directos del personal no docente de la UTN FRGP\n' +
+    '•\tPersonas con discapacidad\n' +
     '\n' +
     ' Escriba *"menu"* para volver al menu principal\n' +
     'Si tienes mas dudas, escribe *"representante"* para contactarte con uno',
@@ -601,22 +337,237 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '93c8390e779178431a2957536c641253'
+  refSerialize: '0cd4171ad817762bb3f4b3d325b02665'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493513118613@s.whatsapp.net',
+    remoteJid: '5491121685641@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0962155426898D6A979',
+    id: '3EB0572452DE1D8D63D32E',
     participant: undefined
   },
-  messageTimestamp: 1694222445,
-  pushName: 'g',
+  messageTimestamp: 1695071960,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    conversation: 'menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu',
+  from: '5491121685641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A2C10F682BE60BF92B',
+    participant: undefined
+  },
+  messageTimestamp: 1695071964,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2ced42aa-fc3b-42eb-ac8b-3b05db75d9b5',
+  keyword: 'key_a7aa6e50-bb0a-4762-b694-75d5b5cc6565',
+  answer: 'Menú Preguntas Frecuentes \n' +
+    '\n' +
+    '1 - ¿Qué necesito para hacer un curso?\n' +
+    '2 - ¿Debo tener estudios previos para hacer un curso?\n' +
+    '3 - ¿Cuándo recibo mi certificado?\n' +
+    '4 - Finalicé el curso y no recibí mi certificado\n' +
+    '5 - ¿Otorgan becas?\n' +
+    '\n' +
+    '0 - Volver al menú inicial',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4a7d5193261d8c8131484ba2b7008267'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C84E4C495E1B5A579C',
+    participant: undefined
+  },
+  messageTimestamp: 1695071996,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d1cdd6fc-00be-4c70-a70c-8f6aaf9f9e96',
+  keyword: 'key_c1a3cb4a-b96d-48a7-8822-ae438fa6c91c',
+  answer: '¿Qué necesito para hacer un curso?\n' +
+    '\n' +
+    'Ver requisitos del curso en la página web (no todos los cursos tienen los mismos requisitos)\n' +
+    '\n' +
+    '-\tSer mayor de 16 años.\n' +
+    '-\tSi es a distancia, conexión a internet.\n' +
+    '-\tSi es presencial, algo para tomar nota.\n' +
+    '\n' +
+    ' Escriba *"menu"* para volver al menu principal\n' +
+    'Si tienes mas dudas, escribe *"representante"* para contactarte con uno',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '70cb87606c478fcf1a8a5e738cf0f95b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05CB34097C520581708',
+    participant: undefined
+  },
+  messageTimestamp: 1695071999,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    conversation: 'representante',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'representante',
+  from: '5491121685641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB097819A6C23F3022944',
+    participant: undefined
+  },
+  messageTimestamp: 1695072005,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    conversation: 'sla dasj 41209 124m asklmdklasmdlmkas 21op321 3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'sla dasj 41209 124m asklmdklasmdlmkas 21op321 3',
+  from: '5491121685641'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4617b553-2b50-424c-acee-bb0033bba349',
+  keyword: 'key_01b84e0f-bbef-4237-84b2-43d895e863c6',
+  answer: 'Bienvenido al ChatBotUTN escribe *"menu"* para ver las opciones',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '092775cefac179fa266160004b61c317'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB030F9F628AB0348E492',
+    participant: undefined
+  },
+  messageTimestamp: 1695072008,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    conversation: 'dlaknsdlnksa doiasnoi das',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'dlaknsdlnksa doiasnoi das',
+  from: '5491121685641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C54A765513647DE6E0',
+    participant: undefined
+  },
+  messageTimestamp: 1695072011,
+  pushName: 'tom',
+  broadcast: false,
+  message: Message {
+    conversation: 'dsnaildnlksadklnasklnd',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'dsnaildnlksadklnasklnd',
+  from: '5491121685641'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121685641@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB008D7CECB6720AF2B08',
+    participant: undefined
+  },
+  messageTimestamp: 1695072947,
+  pushName: 'tom',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'representabte5',
-      contextInfo: [ContextInfo],
+      text: 'https://github.com/tomasqagz/base-baileys-memory',
+      matchedText: 'https://github.com/tomasqagz/base-baileys-memory',
+      canonicalUrl: 'https://github.com/tomasqagz/base-baileys-memory',
+      description: 'https://github.com/tomasqagz/base-baileys-memory',
+      title: 'github.com',
+      previewType: 0,
       inviteLinkGroupTypeV2: 0
     },
     messageContextInfo: MessageContextInfo {
@@ -624,6 +575,6 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'representabte5',
-  from: '5493513118613'
+  body: 'https://github.com/tomasqagz/base-baileys-memory',
+  from: '5491121685641'
 }
