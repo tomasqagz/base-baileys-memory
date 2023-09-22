@@ -7,7 +7,7 @@ const { EVENTS } = require('@bot-whatsapp/bot')
 var flag = false;
 
 const flowRP = addKeyword('representante33333',{ sensitive: true }).addAnswer(
-    ['⏲️ Un representante se pondra en contacto contigo'],
+    ['⏲️ Un representante se pondra en contacto contigo, para seguir navegando escribe nuevamente *"menu"* '],
     null,
     null,
     []
@@ -386,7 +386,7 @@ const flowQA = addKeyword('3',{ sensitive: true }).addAnswer(
 
 
 const flowPrincipal = addKeyword(['menu','Menu','MENU'],{ sensitive: true })
-    .addAnswer(['#️⃣Menú Principal \n',
+    .addAnswer(['#️⃣ Menú Principal \n',
         '1- Cursos',
         '2- Pagos',
         '3- Preguntas Frecuentes '],
